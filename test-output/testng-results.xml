@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9815" started-at="2018-08-04T17:25:48Z" finished-at="2018-08-04T17:25:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9815" started-at="2018-08-04T17:25:48Z" finished-at="2018-08-04T17:25:58Z">
+      <class name="com.test.RegistrationTest">
+        <test-method status="PASS" signature="testStart()[pri:0, instance:com.test.RegistrationTest@1b604f19]" name="testStart" is-config="true" duration-ms="7677" started-at="2018-08-04T13:25:48Z" finished-at="2018-08-04T13:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="registrationTest()[pri:0, instance:com.test.RegistrationTest@1b604f19]" name="registrationTest" duration-ms="2116" started-at="2018-08-04T13:25:56Z" finished-at="2018-08-04T13:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="testFinish()[pri:0, instance:com.test.RegistrationTest@1b604f19]" name="testFinish" is-config="true" duration-ms="0" started-at="2018-08-04T13:25:58Z" finished-at="2018-08-04T13:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFinish -->
+      </class> <!-- com.test.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
