@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.FirstSeleniumTest">
+      <class name="com.pom.pf.test.LogintestPF">
         <methods>
-          <include name="setUP"/>
-          <include name="test"/>
+          <include name="loginTest"/>
+          <include name="testStart"/>
+          <include name="testFinish"/>
         </methods>
-      </class> <!-- com.test.FirstSeleniumTest -->
+      </class> <!-- com.pom.pf.test.LogintestPF -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
