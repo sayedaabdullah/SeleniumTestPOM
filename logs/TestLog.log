@@ -1,0 +1,5 @@
+2018-46-12 13:46:02.721 [main] INFO  com.base.TestBase - Succefully Open Crome Browser
+2018-46-12 13:46:08.059 [main] INFO  com.base.TestBase - Making browser full screen
+2018-46-12 13:46:09.972 [main] INFO  com.pom.test.SignUpTest - Click on login link
+2018-46-12 13:46:10.664 [main] INFO  com.base.TestBase - Closing browser tab
+2018-46-12 13:46:10.665 [main] INFO  com.base.TestBase - Closing browser 
