@@ -1,5 +1,6 @@
 package com.pom.test;
 
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.pom.base.TestBase;
@@ -7,11 +8,18 @@ import com.pom.pages.LoginPage;
 
 
 public class LoginPageTest extends TestBase {
+	@DataProvider(name = "login")
+	  public static Object[][] login() {
+	 
+	        return new Object[][] { { "reaz@infixtech.com", "Test@123" }, { "reaz@infixtech.com", "T" },
+	        	{"reaz", ""}};
+	 
+	  }
 	
-	@Test
-	public void testLogin() throws InterruptedException {
+	@Test(dataProvider="login")
+	public void testLogin(String email,String pass) throws InterruptedException {
 		LoginPage login = new LoginPage(driver);
-		login.loginToHeatclinic("reaz@infixtech.com","Test1234");
+		login.loginToHeatclinic(email,pass);
 	}
 
 }

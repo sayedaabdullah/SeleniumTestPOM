@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.pom.pf.test.LogintestPF">
+      <class name="com.pom.test.SignUpTest">
         <methods>
-          <include name="loginTest"/>
-          <include name="testStart"/>
           <include name="testFinish"/>
+          <include name="testRegistration"/>
+          <include name="testStart"/>
         </methods>
-      </class> <!-- com.pom.pf.test.LogintestPF -->
+      </class> <!-- com.pom.test.SignUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

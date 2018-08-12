@@ -13,14 +13,14 @@ public class LoginPage {
 	}
 	
 	
-	By loginLink = By.linkText("Login");
-	By emailTextBox = By.id("username");
-	By passwordTextBox = By.xpath("id(\\\"login\\\")/form[1]/div[2]/div[1]/input[1]");
-	By loginButton = By.xpath("id(\\\"login\\\")/form[1]/button[1]");
+	By loginLink = By.xpath("//a[contains(text(),'Login')]");
+	By emailTextBox = By.xpath("//input[@id='username']");
+	By passwordTextBox = By.xpath("//div[@class='label-floating form-group']//input[@id='password']");
+	By loginButton = By.xpath("//button[contains(text(),'Login')]");
 	
 	
 	public WebElement loginLink() {
-		return driver.findElement(By.linkText("Login"));
+		return driver.findElement(By.xpath("//a[contains(text(),'Login')]"));
 	}
 	public void clickLoginLink() {
 		loginLink().click();

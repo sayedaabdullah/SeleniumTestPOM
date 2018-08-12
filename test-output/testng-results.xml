@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11473" started-at="2018-08-11T18:25:46Z" finished-at="2018-08-11T18:25:57Z">
+  <suite name="Default suite" duration-ms="15880" started-at="2018-08-12T17:23:41Z" finished-at="2018-08-12T17:23:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11473" started-at="2018-08-11T18:25:46Z" finished-at="2018-08-11T18:25:57Z">
-      <class name="com.pom.pf.test.GuiftCardPFTest">
-        <test-method status="PASS" signature="testStart()[pri:0, instance:com.pom.pf.test.GuiftCardPFTest@7823a2f9]" name="testStart" is-config="true" duration-ms="9168" started-at="2018-08-11T14:25:46Z" finished-at="2018-08-11T14:25:55Z">
+    <test name="Default test" duration-ms="15880" started-at="2018-08-12T17:23:41Z" finished-at="2018-08-12T17:23:57Z">
+      <class name="com.pom.test.SignUpTest">
+        <test-method status="PASS" signature="testStart()[pri:0, instance:com.pom.test.SignUpTest@4b9e13df]" name="testStart" is-config="true" duration-ms="11886" started-at="2018-08-12T13:23:41Z" finished-at="2018-08-12T13:23:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStart -->
-        <test-method status="PASS" signature="fiveDollarCardTest()[pri:0, instance:com.pom.pf.test.GuiftCardPFTest@7823a2f9]" name="fiveDollarCardTest" duration-ms="2285" started-at="2018-08-11T14:25:55Z" finished-at="2018-08-11T14:25:57Z">
+        <test-method status="PASS" signature="testRegistration()[pri:0, instance:com.pom.test.SignUpTest@4b9e13df]" name="testRegistration" duration-ms="3974" started-at="2018-08-12T13:23:53Z" finished-at="2018-08-12T13:23:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fiveDollarCardTest -->
-        <test-method status="PASS" signature="testFinish()[pri:0, instance:com.pom.pf.test.GuiftCardPFTest@7823a2f9]" name="testFinish" is-config="true" duration-ms="0" started-at="2018-08-11T14:25:57Z" finished-at="2018-08-11T14:25:57Z">
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="testFinish()[pri:0, instance:com.pom.test.SignUpTest@4b9e13df]" name="testFinish" is-config="true" duration-ms="1" started-at="2018-08-12T13:23:57Z" finished-at="2018-08-12T13:23:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFinish -->
-      </class> <!-- com.pom.pf.test.GuiftCardPFTest -->
+      </class> <!-- com.pom.test.SignUpTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
