@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.pom.test.SignUpTest">
+      <class name="com.pom.test.MercendiseTest">
         <methods>
+          <include name="sortingByHighToLow"/>
           <include name="testFinish"/>
-          <include name="testRegistration"/>
           <include name="testStart"/>
+          <include name="reportClose"/>
+          <include name="reportInit"/>
         </methods>
-      </class> <!-- com.pom.test.SignUpTest -->
+      </class> <!-- com.pom.test.MercendiseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

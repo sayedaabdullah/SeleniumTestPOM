@@ -3,3 +3,7 @@
 2018-46-12 13:46:09.972 [main] INFO  com.pom.test.SignUpTest - Click on login link
 2018-46-12 13:46:10.664 [main] INFO  com.base.TestBase - Closing browser tab
 2018-46-12 13:46:10.665 [main] INFO  com.base.TestBase - Closing browser 
+2018-11-18 13:11:02.463 [main] INFO  com.base.TestBase - Succefully Open Crome Browser
+2018-11-18 13:11:04.586 [main] INFO  com.base.TestBase - Making browser full screen
+2018-11-18 13:11:04.606 [main] INFO  com.base.TestBase - Closing browser tab
+2018-11-18 13:11:04.607 [main] INFO  com.base.TestBase - Closing browser 

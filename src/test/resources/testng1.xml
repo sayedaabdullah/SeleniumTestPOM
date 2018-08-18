@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Adhock Test Suite" verbose="1" >
+  <test name="Adhock test 1">
+    <classes>
+      <class name="com.pom.test.SignUpTest"/>   
+       <class name="com.pom.test.LoginPageTest"/>   
+    </classes>
+  </test>
+</suite>
