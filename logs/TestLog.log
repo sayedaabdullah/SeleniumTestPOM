@@ -7,3 +7,8 @@
 2018-11-18 13:11:04.586 [main] INFO  com.base.TestBase - Making browser full screen
 2018-11-18 13:11:04.606 [main] INFO  com.base.TestBase - Closing browser tab
 2018-11-18 13:11:04.607 [main] INFO  com.base.TestBase - Closing browser 
+2018-44-19 12:44:11.206 [main] INFO  com.base.TestBase - Succefully Open Crome Browser
+2018-46-19 12:46:04.467 [main] INFO  com.base.TestBase - Succefully Open Crome Browser
+2018-46-19 12:46:05.860 [main] INFO  com.base.TestBase - Making browser full screen
+2018-46-19 12:46:06.799 [main] INFO  com.base.TestBase - Closing browser tab
+2018-46-19 12:46:06.799 [main] INFO  com.base.TestBase - Closing browser 

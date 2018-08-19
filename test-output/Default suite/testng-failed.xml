@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.pom.test.MercendiseTest">
+      <class name="com.extent.test.TestWithExtentReporting">
         <methods>
-          <include name="sortingByHighToLow"/>
-          <include name="testFinish"/>
+          <include name="registrationTest"/>
           <include name="testStart"/>
-          <include name="reportClose"/>
-          <include name="reportInit"/>
+          <include name="testReport"/>
         </methods>
-      </class> <!-- com.pom.test.MercendiseTest -->
+      </class> <!-- com.extent.test.TestWithExtentReporting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

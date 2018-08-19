@@ -7,6 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
 import com.base.TestBase;
 import com.test.data.RegistrationTestData;
 import com.test.locator.RegistrationLocator;
@@ -20,7 +21,9 @@ public class RegistrationTest extends TestBase {
 	@Test
 	public void registrationTest() {
 		driver.findElement(By.linkText(locator.loginLink)).click();
+		test.log(Status.INFO, "Click on link");
 		driver.findElement(By.id(locator.emailTestboxID)).sendKeys(data.email);
+		test.log(Status.INFO, "Type email");
 	}
 	
 }
