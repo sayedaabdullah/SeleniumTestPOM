@@ -2,32 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8606" started-at="2018-08-19T17:11:34Z" finished-at="2018-08-19T17:11:43Z">
+  <suite name="Default suite" duration-ms="617" started-at="2018-08-19T17:57:58Z" finished-at="2018-08-19T17:57:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8606" started-at="2018-08-19T17:11:34Z" finished-at="2018-08-19T17:11:43Z">
-      <class name="com.extent.test.TestWithExtentReporting">
-        <test-method status="PASS" signature="testReport()[pri:0, instance:com.extent.test.TestWithExtentReporting@523884b2]" name="testReport" is-config="true" duration-ms="361" started-at="2018-08-19T13:11:34Z" finished-at="2018-08-19T13:11:35Z">
+    <test name="Default test" duration-ms="617" started-at="2018-08-19T17:57:58Z" finished-at="2018-08-19T17:57:58Z">
+      <class name="com.jdbc.test.MySqlDBTest">
+        <test-method status="PASS" signature="allEmployeeTest()[pri:0, instance:com.jdbc.test.MySqlDBTest@29ee9faa]" name="allEmployeeTest" duration-ms="587" started-at="2018-08-19T13:57:58Z" finished-at="2018-08-19T13:57:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testReport -->
-        <test-method status="PASS" signature="testStart()[pri:0, instance:com.extent.test.TestWithExtentReporting@523884b2]" name="testStart" is-config="true" duration-ms="5486" started-at="2018-08-19T13:11:35Z" finished-at="2018-08-19T13:11:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testStart -->
-        <test-method status="PASS" signature="registrationTest()[pri:0, instance:com.extent.test.TestWithExtentReporting@523884b2]" name="registrationTest" duration-ms="1782" started-at="2018-08-19T13:11:40Z" finished-at="2018-08-19T13:11:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationTest -->
-        <test-method status="PASS" signature="testFinish()[pri:0, instance:com.extent.test.TestWithExtentReporting@523884b2]" name="testFinish" is-config="true" duration-ms="514" started-at="2018-08-19T13:11:42Z" finished-at="2018-08-19T13:11:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFinish -->
-        <test-method status="PASS" signature="reportFinish()[pri:0, instance:com.extent.test.TestWithExtentReporting@523884b2]" name="reportFinish" is-config="true" duration-ms="438" started-at="2018-08-19T13:11:42Z" finished-at="2018-08-19T13:11:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportFinish -->
-      </class> <!-- com.extent.test.TestWithExtentReporting -->
+        </test-method> <!-- allEmployeeTest -->
+      </class> <!-- com.jdbc.test.MySqlDBTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
