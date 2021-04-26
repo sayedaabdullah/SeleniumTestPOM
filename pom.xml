@@ -4,13 +4,15 @@
 	<groupId>com.test</groupId>
 	<artifactId>FirstSeleniumTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	 <properties>
+	   <maven.compiler.source>1.8</maven.compiler.source>
+	   <maven.compiler.target>1.8</maven.compiler.target>
+	 </properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.8</version>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -22,7 +24,6 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>2.2.4</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
@@ -43,14 +44,11 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.11.0</version>
 		</dependency>
-
-		<!-- pom.xml -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>3.1.5</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -74,6 +72,4 @@
 		</plugins>
 
 	</build>
-
-
 </project>

@@ -1,4 +1,4 @@
-package com.pom.test;
+package com.test;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

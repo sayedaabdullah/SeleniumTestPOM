@@ -1,41 +1,30 @@
 package com.test;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import com.base.TestBase;
+import com.pom.pages.LoginPage;
+import com.pom.pages.RegistrationLoginPage;
+import com.pom.test.utility.ExcelUtility;
 
-public class SignUpTest {
-	 WebDriver driver;
 
-	@BeforeClass
-	public static void testSetup() {
-		 WebDriverManager.firefoxdriver().setup();
-		//WebDriverManager.chromedriver().setup();	
-	}
-	@BeforeMethod
-	public void broserSetup() {
-		//System.setProperty("webdriver.gecko.driver","driver/geckodriver");
-		 driver = new FirefoxDriver();
-		//driver = new ChromeDriver();
-		driver.manage().window().maximize();
-	}
+
+public class SignUpTest extends TestBase {
+	ExcelUtility excel = new ExcelUtility();
+	private static final Logger log = LogManager.getLogger(SignUpTest.class);
 	@Test
-	public void signUpTest()  {
-		driver.get("https://demo.broadleafcommerce.org/");
-		//Thread.sleep(5000);
-		driver.findElement(By.linkText("Login")).click();
-		driver.findElement(By.id("username")).sendKeys("reaz@infixtech.com");
-	}
-	@AfterMethod
-	public void teardown() {
-		// driver.close();
-		// driver.quit();
+	public void testRegistration() throws Exception {
+		RegistrationLoginPage registration = new RegistrationLoginPage(driver);
+		
+		excel.setExcelFile("//Users//reaz//Desktop//SSA4.xlsx", "logindata");
+		LoginPage login = new LoginPage(driver);
+		login.clickLoginLink();
+		log.info("Click on login link");
+		registration.registration(excel.getCellData(8, 0));
+		registration.typeFirstName("reaz");
+		
 	}
 
 }

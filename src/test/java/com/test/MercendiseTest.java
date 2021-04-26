@@ -1,4 +1,4 @@
-package com.pom.test;
+package com.test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
